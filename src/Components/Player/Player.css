@@ -1,0 +1,20 @@
+.Players {
+    margin: 10px;
+    padding: 10px;
+}
+.Players:hover {
+    border-radius: 20px;
+    border: 2px solid rgb(34, 178, 135);
+    cursor: pointer;
+}
+.player-card{
+    margin: auto;
+    text-align: center;
+}
+.player-img {
+    border-radius: 35px;
+    margin: auto;
+    background-color: rgb(45, 0, 128);
+    cursor: pointer;
+}
+

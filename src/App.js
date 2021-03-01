@@ -19,14 +19,20 @@ function App() {
   }
 
   return (
-    <div className="App">
-        <h2>Total Auction Player : {player.length}</h2>
-        <Selected soldplayer={soldplayer} > </Selected>
+        <section>
 
-        {
-          PlayerData.map(player => <Player player={player} handleSoldPlayer={handleSoldPlayer} key={player.code} > </Player>)
-        }
-    </div>
+        <div className="selected-team">
+          <h2>Total Auction Player : {player.length}</h2>
+          <Selected soldplayer={soldplayer} > </Selected>
+        </div>
+  
+        <div className="Main-App">
+          {
+            PlayerData.map(player => <Player player={player} handleSoldPlayer={handleSoldPlayer} key={player.code} > </Player>)
+          }
+        </div>
+  
+      </section>
   );
 }
 
