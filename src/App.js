@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+// Import Data and Components
 import PlayerData from './Data/FakeData.json';
 import Player from './Components/Player/Player';
 import Selected from './Components/Selected/Selected';

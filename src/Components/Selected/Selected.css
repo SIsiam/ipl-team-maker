@@ -1,0 +1,27 @@
+.Show-team {
+    margin: auto;
+}
+.selected-player {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.selected-player-name{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+
+}
+.total-cost {
+    padding: 20px;
+    background-color: rgb(238, 64, 200);
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
