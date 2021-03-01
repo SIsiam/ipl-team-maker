@@ -7,11 +7,20 @@
 .player-card{
     margin: auto;
     text-align: center;
+    position: relative;
+}
+.player-card:hover{
+   cursor: pointer;
 }
 .player-img {
-    border-radius: 35px;
-    margin: auto;
+    margin: 15px;
+    border-radius: 20px;
     background-color: rgb(45, 0, 128);
     cursor: pointer;
+    width: 90%;
 }
-
+.player-img:hover {
+    border-radius: 28px;
+    transform: scale(1.08);
+    transition: transform 2s;
+}

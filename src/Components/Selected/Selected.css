@@ -12,16 +12,22 @@
     margin: 10px;
     border-radius: 15px;
 }
+
 .selected-player-name{
     font-size: 20px;
     color: black;
     padding: 10px;
-
 }
+
 .total-cost {
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(238, 64, 200);
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px auto;
     color: white;
+}
+.total-cost:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: transform 3s;
 }

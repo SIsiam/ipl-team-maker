@@ -13,9 +13,9 @@ const Player = (props) => {
     const soldPlayerHandle = props.handleSoldPlayer;
     return (
         <div className="Players">
-            <CardDeck className="player-card">
+            <CardDeck className="player-card" >
                 <Card>
-                    <img className="player-img w-100" src={picture} alt="" />
+                    <img className="player-img" src={picture} alt="" />
                     <Card.Body>
                         <Card.Title><h2> {name} </h2> </Card.Title>
                         <h4>Price :  <FontAwesomeIcon icon={faRupeeSign} /> {Price}</h4>

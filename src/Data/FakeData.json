@@ -143,5 +143,23 @@
         "Price": 97500000,
         "picture": "https://www.kkr.in/static-assets/images/players/2020/63187.png?v=1&w=200",
         "code": "KYADAV"
+    },
+    {
+        "id": 17,
+        "name": "Tim Seifert",
+        "email": "timNZ@gmail.com",
+        "gender": "Male",
+        "Price": 97500000,
+        "picture": "https://static.iplt20.com/players/210/1619.png",
+        "code": "tom"
+    },
+    {
+        "id": 18,
+        "name": "Brendon mccullum (HeadCoach)",
+        "email": "Brendon@gmail.com",
+        "gender": "Male",
+        "Price": 507500000,
+        "picture": "https://www.kkr.in/static-assets/images/staff/2020/1979.png?v=1.6",
+        "code": "SakibBD"
     }
 ]

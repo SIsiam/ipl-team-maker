@@ -12,7 +12,7 @@ const Selected = (props) => {
     // Use Reduce 
     const totalCost = soldPlayers.reduce((sum, player) => sum + player.Price, 0)
 
-     // Bangla System For Loop Try 
+    // Bangla System For Loop Try Here :
 
     /* let totalCost = 0;
     for (let i = 0; i < soldplayer.length; i++) {
@@ -21,23 +21,22 @@ const Selected = (props) => {
         }
     */
 
-
     return (
 
         // Sold player and Total Price 
-        
+
         <div className="Show-team" >
-            <h2>Selected Sold Player: {soldPlayers.length} </h2>
+            <h2>Selected Sold Player : {soldPlayers.length} </h2>
             <details className="selected-player" >
-                <summary>Click And See Selected Players Name :  </summary>
+                <summary>Click And See Selected Players For KKR Club :  </summary>
                 {
                     soldPlayers.map(playerName => <Card.Body className="selected-player-name"> Sold For KKR : {playerName.name} , Salary : {playerName.Price} </Card.Body>)
 
                 }
 
             </details>
-            <div className="Total-cost" >
-                <h2>Total Price : <FontAwesomeIcon icon={faRupeeSign} /> {totalCost}</h2>
+            <div className="total-cost" >
+                <h2>Total Budget : <FontAwesomeIcon icon={faRupeeSign} /> {totalCost}</h2>
 
             </div>
         </div>
