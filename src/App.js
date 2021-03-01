@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import PlayerData from './Data/FakeData.json';
+import Player from './Components/Player/Player';
+import Selected from './Components/Selected/Selected';
+
 
 function App() {
+  const [player, setPlayer] = useState([]);
+  const [soldplayer, setSoldplayer] = useState([]);
+
+  useEffect(() => {
+    setPlayer(PlayerData)
+  }, [])
+
+  const handleSoldPlayer = (Player) => {
+    const newSoldCount = [...soldplayer, Player]
+    setSoldplayer(newSoldCount)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h2>Total Auction Player : {player.length}</h2>
+        <Selected soldplayer={soldplayer} > </Selected>
+
+        {
+          PlayerData.map(player => <Player player={player} handleSoldPlayer={handleSoldPlayer} key={player.code} > </Player>)
+        }
     </div>
   );
 }

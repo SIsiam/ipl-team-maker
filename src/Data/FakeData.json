@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "name": "Eoin Morgan ©",
+        "email": "morgan21@gmail.com",
+        "gender": "Male",
+        "Price": 80000000,
+        "nationalPlayer": "Englend",
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/3823.png?v=1.6&w=200",
+        "code": "EMG"
+    },
+    {
+        "id": 2,
+        "name": "Dinesh Karthik",
+        "email": "dk@gmail.com",
+        "gender": "Male",
+        "Price": 75000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/3632.png?v=1.6&w=200",
+        "code": "DK"
+    },
+    {
+        "id": 3,
+        "name": "Nitish Rana",
+        "email": "nri2@gmail.com",
+        "gender": "Male",
+        "Price": 35000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/63649.png?v=1.6&w=200",
+        "code": "NR"
+    },
+    {
+        "id": 4,
+        "name": "Rahul Tripathi",
+        "email": "rtpati@gmail.com",
+        "gender": "Male",
+        "Price": 2000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/41229.png?v=1.6&w=200",
+        "code": "RTPATI"
+    },
+    {
+        "id": 5,
+        "name": "Shubman Gill",
+        "email": "shub99@gmail.com",
+        "gender": "Male",
+        "Price": 40000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/66818.png?v=1.6&w=200",
+        "code": "SGiil"
+    },
+    {
+        "id": 6,
+        "name": "Andre Russell V©",
+        "email": "lara@gmail.com",
+        "gender": "Male",
+        "Price": 9500000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/12047.png?v=1.6&w=200",
+        "code": "Boos"
+    },
+    {
+        "id": 7,
+        "name": "Varun Chakaravarthy",
+        "email": "vchakrabarty@gmail.com",
+        "gender": "Male",
+        "Price": 45000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/67469.png?v=1&w=200",
+        "code": "VCty"
+    },
+    {
+        "id": 8,
+        "name": "Sunil Narine",
+        "email": "sunil@gmail.com",
+        "gender": "Male",
+        "Price": 87000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/11229.png?v=1&w=200",
+        "code": "nr"
+    },
+    {
+        "id": 9,
+        "name": "Lockie Ferguson",
+        "email": "locki22@gmail.com",
+        "gender": "Male",
+        "Price": 52000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/63719.png?v=1&w=200",
+        "code": "lrNZ"
+    },
+    {
+        "id": 10,
+        "name": "Pat Cummins",
+        "email": "pcAUS@gmail.com",
+        "gender": "Male",
+        "Price": 155000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/56964.png?v=1&w=200",
+        "code": "nr"
+    },
+    {
+        "id": 11,
+        "name": "Shivam Mavi",
+        "email": "smavi534@gmail.com",
+        "gender": "Male",
+        "Price": 27000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/66984.png?v=1&w=200",
+        "code": "SMAVII"
+    },
+    {
+        "id": 12,
+        "name": "Sandeep Warrier",
+        "email": "swari5s34@gmail.com",
+        "gender": "Male",
+        "Price": 17000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/63363.png?v=1&w=200",
+        "code": "SWAR"
+    },
+    {
+        "id": 13,
+        "name": "Prasidh Krishna",
+        "email": "pk5467@gmail.com",
+        "gender": "Male",
+        "Price": 65000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/65702.png?v=1&w=200",
+        "code": "PK"
+    },
+    {
+        "id": 14,
+        "name": "Kamlesh Nagarkoti",
+        "email": "KMNKoti32@gmail.com",
+        "gender": "Male",
+        "Price": 47500000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/66807.png?v=1&w=200",
+        "code": "KKOTI"
+    },
+    {
+        "id": 15,
+        "name": "Rinku Singh",
+        "email": "RKsing1@gmail.com",
+        "gender": "Male",
+        "Price": 25000000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/64727.png?v=1&w=200",
+        "code": "RKSing"
+    },
+    {
+        "id": 16,
+        "name": "Kuldeep Yadav",
+        "email": "kY22@gmail.com",
+        "gender": "Male",
+        "Price": 97500000,
+        "picture": "https://www.kkr.in/static-assets/images/players/2020/63187.png?v=1&w=200",
+        "code": "KYADAV"
+    }
+]
